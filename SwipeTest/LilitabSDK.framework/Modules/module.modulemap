@@ -1,0 +1,6 @@
+framework module LilitabSDK {
+  umbrella header "LilitabSDK.h"
+
+  export *
+  module * { export * }
+}
