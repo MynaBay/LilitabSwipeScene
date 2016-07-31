@@ -35,9 +35,6 @@ typedef NS_ENUM(NSInteger, LilitabSDK_LED_Mode)
     // Names used with NSNotificationCenter to be notified of connect/disconnect events
 #define     LilitabSDK_DidConnectNotification           @"Liliswipe_DidConnectNotification"
 #define     LilitabSDK_DidDisconnectNotification        @"Liliswipe_DidDisconnectNotification"
-    // Deprecated. Use LilitabSDK_ versions
-#define     Liliswipe_DidConnectNotification            @"Liliswipe_DidConnectNotification"
-#define     Liliswipe_DidDisconnectNotification         @"Liliswipe_DidDisconnectNotification"
 
 
 @interface LilitabSDK : NSObject
@@ -130,11 +127,10 @@ typedef NS_ENUM(NSInteger, LilitabSDK_LED_Mode)
 
 
     /////////////////////////////////////////////////////////////////////
-    // enableAttachmentNotification - After adding NSNotification observers to
-    // LilitabSDK_DidConnectNotification & LilitabSDK_DidDisconnectNotification this is
-    // called to generate notifications.
+    // scanForConnectedAccessories - Call to generate LilitabSDK_DidConnectNotification
+    // notifications for any accessories already attached.
     //
-@property (nonatomic,assign)    BOOL  enableAttachmentNotification;
+-(void) scanForConnectedAccessories;
 
 
     /////////////////////////////////////////////////////////////////////
@@ -148,43 +144,20 @@ typedef NS_ENUM(NSInteger, LilitabSDK_LED_Mode)
     //
     // Used for SDK development/testing
     //
-@property (nonatomic,copy)      void(^debugMessages)(NSString* msg);
+@property (nonatomic,copy) void(^debugMessages)(NSString* msg);
+
 
     /////////////////////////////////////////////////////////////////////
     /////////////////////////////////////////////////////////////////////
     /////////////////////////////////////////////////////////////////////
 
     /////////////////////////////////////////////////////////////////////
-    // Sending a raw command string
+    // INTERNAL - Testing functions
     //
 -(void) sendCommand:(NSString*)cmd withCompletion:(void (^)(BOOL success,NSDictionary* results))completionBlock;
-
 -(void) testFlashWithCompletion:(void (^)(BOOL success,NSDictionary* results))completionBlock;
 
-
-    //////////////////////////////////////////////////////////
-    // deprecated methods
-@property (nonatomic,copy)      void(^dockStatus)(NSDictionary<NSString*,NSString*>* dictionary);
-@property (nonatomic,copy)      void(^dockLiveStatus)(NSMutableDictionary* dictionary);
-@property (nonatomic,copy)      void(^dockCachedStatus)(NSMutableDictionary* dictionary);
-@property (nonatomic,copy)      void(^dockMessages)(NSString* message);
--(void) unlockForUser:(NSString*)userName password:(NSString*)password completion:(void (^)(BOOL success))completionBlock;
-    ///////////////////////////////////////////////////////////
-
-
-
     /////////////////////////////////////////////////////////////////////
-
-@end
-
-
-    /////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////
-    /////////////////////////////////////////////////////////////////////
-
-@interface Liliswipe : LilitabSDK   // Deprecated. Use LilitabSDK singleton
-
-+(Liliswipe*) sharedSwipe;
 
 @end
 

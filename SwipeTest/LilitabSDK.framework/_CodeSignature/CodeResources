@@ -6,11 +6,19 @@
 	<dict>
 		<key>Headers/LilitabAccessory.h</key>
 		<data>
-		kDykpHv9GJbLVYeKmk+3tbBhk0w=
+		rj/eVjbJCs3n8M0oVJ6rtAqFww8=
 		</data>
 		<key>Headers/LilitabSDK.h</key>
 		<data>
-		OgS4v/39DrZX6WR5q6YIoVIUVRY=
+		Xp3PxFxaTB312hoQpkhx9+ABf9E=
+		</data>
+		<key>Headers/LilitabUnlockButton.h</key>
+		<data>
+		X9Uidq1SmwKx36Xr5LmNWoaz178=
+		</data>
+		<key>Headers/LilitabUnlockIconView.h</key>
+		<data>
+		p5IvPe7FmhTPh9POxF698Aw1WcU=
 		</data>
 		<key>Headers/StripForAppStore.sh</key>
 		<data>
@@ -18,11 +26,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IvW4mvUs7Y1cMPpS7ZZZPZQHyBY=
+		YazVEMfefEyohnTMswEP1YGj3Zk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		y73Za/J3L1fIcioOWmhdFX6yM0Y=
+		</data>
+		<key>lilitab-locked@2x.png</key>
+		<data>
+		4xeIHJfJIvpdu7LJ46BFt5dQBgo=
+		</data>
+		<key>lilitab-lost-comm@2x.png</key>
+		<data>
+		gKbsl9L5Z1CH9N/9A2D6KUEY5b8=
+		</data>
+		<key>lilitab-nopower-locking@2x.png</key>
+		<data>
+		ShhtLvkbRTSNtXSB+ZmdYgYt51M=
+		</data>
+		<key>lilitab-nopower-unlocking@2x.png</key>
+		<data>
+		COmEl4xbpx0IZa99InngAvmJCTU=
+		</data>
+		<key>lilitab-resetting@2x.png</key>
+		<data>
+		p3oPqQrwuk1yh5YFcAw7PPB2QNs=
+		</data>
+		<key>lilitab-stalled-locking@2x.png</key>
+		<data>
+		8ViNJlVfBNdx6tG35TeNyTS+0Oc=
+		</data>
+		<key>lilitab-stalled-unlocking@2x.png</key>
+		<data>
+		pap7ukgRU2SNiC3G9m+Q7GxA0Tc=
+		</data>
+		<key>lilitab-unlocked@2x.png</key>
+		<data>
+		OKWmpog7ktv5azNAfdX1gfVeACk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -31,22 +71,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kDykpHv9GJbLVYeKmk+3tbBhk0w=
+			rj/eVjbJCs3n8M0oVJ6rtAqFww8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UrZvUhttY57mI+BMczOQjXfAktDyEKn4FJnGJ6qx+6M=
+			bZKxkPVVKsN4Xt/Q7XfZe9C4dOHUgJeTTh7TKEnf5K8=
 			</data>
 		</dict>
 		<key>Headers/LilitabSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OgS4v/39DrZX6WR5q6YIoVIUVRY=
+			Xp3PxFxaTB312hoQpkhx9+ABf9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			DpsnoeHH4SkWFTmXyDSDVa82qKeepTsfrUgoUrUw/cE=
+			zYTRBpd20rpJVwn3a7O4CYRBCN4zUFm1nnBxtRnGmMU=
+			</data>
+		</dict>
+		<key>Headers/LilitabUnlockButton.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X9Uidq1SmwKx36Xr5LmNWoaz178=
+			</data>
+			<key>hash2</key>
+			<data>
+			0hQin8OgpxT++k0jaRpgbgvJ0H/qKu1GpSYhnIc0AFs=
+			</data>
+		</dict>
+		<key>Headers/LilitabUnlockIconView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p5IvPe7FmhTPh9POxF698Aw1WcU=
+			</data>
+			<key>hash2</key>
+			<data>
+			MBwH8JrHwTdsoB32mB+IaVD8tJh2MZrVbdafHeHYwfI=
 			</data>
 		</dict>
 		<key>Headers/StripForAppStore.sh</key>
@@ -69,6 +131,94 @@
 			<key>hash2</key>
 			<data>
 			AS96FNVrd2VZU5jCDnwSrKAg5EVxx/W4+jJW4dkzXRw=
+			</data>
+		</dict>
+		<key>lilitab-locked@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4xeIHJfJIvpdu7LJ46BFt5dQBgo=
+			</data>
+			<key>hash2</key>
+			<data>
+			QMiwxHmZrOgbX6FQfIlvIoCMvnzBZgH46eX4Gr/SQvo=
+			</data>
+		</dict>
+		<key>lilitab-lost-comm@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gKbsl9L5Z1CH9N/9A2D6KUEY5b8=
+			</data>
+			<key>hash2</key>
+			<data>
+			zg5ZKLKjGNrONE51G1+T8Y2+59Tik+/vqXlenQ5t4MM=
+			</data>
+		</dict>
+		<key>lilitab-nopower-locking@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ShhtLvkbRTSNtXSB+ZmdYgYt51M=
+			</data>
+			<key>hash2</key>
+			<data>
+			CR+GtvdlvUJSJ/hsgvP4GQXoNKPBf7rJ2Zu/pu/DsKw=
+			</data>
+		</dict>
+		<key>lilitab-nopower-unlocking@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			COmEl4xbpx0IZa99InngAvmJCTU=
+			</data>
+			<key>hash2</key>
+			<data>
+			uxMq653YAsHCxnNKGH5LnjBCmoUcRoq8Vl7ITlKbzec=
+			</data>
+		</dict>
+		<key>lilitab-resetting@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p3oPqQrwuk1yh5YFcAw7PPB2QNs=
+			</data>
+			<key>hash2</key>
+			<data>
+			1ufQXaMXsXTF2q9A1/K4ZupAUC7wTIhycC9M1wH2sLI=
+			</data>
+		</dict>
+		<key>lilitab-stalled-locking@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8ViNJlVfBNdx6tG35TeNyTS+0Oc=
+			</data>
+			<key>hash2</key>
+			<data>
+			GcQ9SL32JvcEHnU9L+r6ykJ2Ln6Jggc749pBm5Eu1pM=
+			</data>
+		</dict>
+		<key>lilitab-stalled-unlocking@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pap7ukgRU2SNiC3G9m+Q7GxA0Tc=
+			</data>
+			<key>hash2</key>
+			<data>
+			UzNJ9fU6IY56HhR1CXGoJoxJrn3Xzm0PIn4Je/BPOis=
+			</data>
+		</dict>
+		<key>lilitab-unlocked@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OKWmpog7ktv5azNAfdX1gfVeACk=
+			</data>
+			<key>hash2</key>
+			<data>
+			/9shLQ2q1oFDrPR+ei8Y5DuyC6ltO1dq2j3E0aYv7nA=
 			</data>
 		</dict>
 	</dict>

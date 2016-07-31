@@ -20,18 +20,21 @@
 
 -(void) viewWillAppear:(BOOL)animated
 {
+    [super viewWillAppear:animated];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(lilitabConnected:)    name:LilitabSDK_DidConnectNotification    object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(lilitabDisconnected:) name:LilitabSDK_DidDisconnectNotification object:nil];
     
-    [LilitabSDK singleton].enableAttachmentNotification = YES;
+    [[LilitabSDK singleton] scanForConnectedAccessories];
 }
 
 -(void) viewWillDisappear:(BOOL)animated
 {
+    [super viewWillDisappear:animated];
+    
     [LilitabSDK singleton].enableSwipe = NO;
     [LilitabSDK singleton].swipeBlock = nil;
     [LilitabSDK singleton].ledState = LED_Off;
-    [LilitabSDK singleton].enableAttachmentNotification = NO;
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }

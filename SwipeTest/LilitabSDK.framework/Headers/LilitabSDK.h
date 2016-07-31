@@ -16,5 +16,5 @@ FOUNDATION_EXPORT const unsigned char LilitabSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LilitabSDK/PublicHeader.h>
 #import <LilitabSDK/LilitabAccessory.h>
-
-
+#import <LilitabSDK/LilitabUnlockIconView.h>
+#import <LilitabSDK/LilitabUnlockButton.h>
