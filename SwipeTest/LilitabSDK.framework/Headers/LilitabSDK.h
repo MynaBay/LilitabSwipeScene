@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char LilitabSDKVersionString[];
 #import <LilitabSDK/LilitabAccessory.h>
 #import <LilitabSDK/LilitabUnlockIconView.h>
 #import <LilitabSDK/LilitabUnlockButton.h>
+#import <LilitabSDK/LilitabDockStatusViewController.h>

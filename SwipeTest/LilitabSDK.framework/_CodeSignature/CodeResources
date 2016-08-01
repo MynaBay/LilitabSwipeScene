@@ -4,17 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Asap-Bold.ttf</key>
+		<data>
+		UMmQQG/Smyd5EFb1vUkv9Ez9Ni4=
+		</data>
+		<key>Asap-Regular.ttf</key>
+		<data>
+		20Y5D9sNFdPTVhIytp2vYIhYzdE=
+		</data>
 		<key>Headers/LilitabAccessory.h</key>
 		<data>
 		rj/eVjbJCs3n8M0oVJ6rtAqFww8=
 		</data>
+		<key>Headers/LilitabDockStatusViewController.h</key>
+		<data>
+		wOaLYDD66Ngziy5ZwlEtCJqdGV0=
+		</data>
 		<key>Headers/LilitabSDK.h</key>
 		<data>
-		Xp3PxFxaTB312hoQpkhx9+ABf9E=
+		fbCMqX+0Dc9BKzGTkOp2dbLTS5Q=
 		</data>
 		<key>Headers/LilitabUnlockButton.h</key>
 		<data>
-		X9Uidq1SmwKx36Xr5LmNWoaz178=
+		G/OWNsVpY1CK6EGTsmWu1tY6i+w=
 		</data>
 		<key>Headers/LilitabUnlockIconView.h</key>
 		<data>
@@ -26,7 +38,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YazVEMfefEyohnTMswEP1YGj3Zk=
+		pghdH8bsp+QKLbuq53QQNQo2OWs=
+		</data>
+		<key>LilitabDockStatusViewController.nib</key>
+		<data>
+		QzrhdS2RYo/Tv+/bVPh30MIsLp8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,6 +83,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Asap-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UMmQQG/Smyd5EFb1vUkv9Ez9Ni4=
+			</data>
+			<key>hash2</key>
+			<data>
+			f0/qzYNe7SPhBEE/gAp0ufAnDOjHVMmQv8CbeWo8pig=
+			</data>
+		</dict>
+		<key>Asap-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			20Y5D9sNFdPTVhIytp2vYIhYzdE=
+			</data>
+			<key>hash2</key>
+			<data>
+			fUlPJ2KT+wqOKqsfwOOGuqPoodkJJ/UYq7FStcc+Kfk=
+			</data>
+		</dict>
 		<key>Headers/LilitabAccessory.h</key>
 		<dict>
 			<key>hash</key>
@@ -78,26 +116,37 @@
 			bZKxkPVVKsN4Xt/Q7XfZe9C4dOHUgJeTTh7TKEnf5K8=
 			</data>
 		</dict>
+		<key>Headers/LilitabDockStatusViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wOaLYDD66Ngziy5ZwlEtCJqdGV0=
+			</data>
+			<key>hash2</key>
+			<data>
+			82sEjfauzU2rVheizojrWkj0vAUrWiP+NVgWZplHO2E=
+			</data>
+		</dict>
 		<key>Headers/LilitabSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xp3PxFxaTB312hoQpkhx9+ABf9E=
+			fbCMqX+0Dc9BKzGTkOp2dbLTS5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			zYTRBpd20rpJVwn3a7O4CYRBCN4zUFm1nnBxtRnGmMU=
+			KOZGfYvkgjfPAFvNSTRf9kjnajwak8GuKUOAeY/emmM=
 			</data>
 		</dict>
 		<key>Headers/LilitabUnlockButton.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X9Uidq1SmwKx36Xr5LmNWoaz178=
+			G/OWNsVpY1CK6EGTsmWu1tY6i+w=
 			</data>
 			<key>hash2</key>
 			<data>
-			0hQin8OgpxT++k0jaRpgbgvJ0H/qKu1GpSYhnIc0AFs=
+			b6pXtEsgHlw8PcFSdyrwLL+oFXhzFn5mlHZ00eQXFjY=
 			</data>
 		</dict>
 		<key>Headers/LilitabUnlockIconView.h</key>
@@ -120,6 +169,17 @@
 			<key>hash2</key>
 			<data>
 			1HurmXUJnrBfSakW8k1KBiXymp9jXRJifFfDfd2b66k=
+			</data>
+		</dict>
+		<key>LilitabDockStatusViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QzrhdS2RYo/Tv+/bVPh30MIsLp8=
+			</data>
+			<key>hash2</key>
+			<data>
+			qdkioAeaH+4lXyWQV8NB5/3HCoy7BHuoMKG0p6UyRuo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
